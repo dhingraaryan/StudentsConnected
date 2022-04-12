@@ -1,0 +1,50 @@
+.container
+{
+    margin: 0 auto;
+}
+nav
+{
+    background: #2c3e50;
+}
+nav ul
+{
+    margin-left: -8px;
+}
+nav ul li
+{
+    background: #2c3e50;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a
+{
+    display: block;
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 25px;
+    font-size: 20px;
+}
+nav ul ul
+{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+
+nav ul li:hover > ul
+{
+    display: block;
+}
+nav ul ul li
+{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+nav ul ul li a
+{
+    font-size: 15px;
+}
